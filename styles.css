@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    color: red;
+    font-family: sans-serif;
+}
+
+.upper {
+    background-color: blue;
+    height: 5vh;
+    width: 99vw;
+    position: relative;
+}
+
+.main {
+    margin-top: 7%;
+    background-color: blue;
+    min-height: 100vh;
+    width: 99vw;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-top: 5%;
+
+}
+
+h1 {
+    color: white;
+    margin-top: 1%;
+}
+
+.hitlogo {
+    position: absolute;
+    left: 46%;
+    right: 46%;
+    transform: translate(-48%, -48%);
+    margin: 10 50;
+    text-align: center;
+    display: flex;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.img1 {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 17px;
+    z-index: 1;
+}
+
+.enquiry {
+    margin: 3% 2%;
+}
+
+.p1 {
+    background-color: orange;
+    color: white;
+    padding: 3px;
+    font-size: large;
+}
+
+.chatbotlogo {
+    margin-top: 2%;
+}
+
+.img2 {
+    width: 200px;
+    z-index: 1;
+}
+
+.bottomtxt {
+    margin: 2% 2%;
+}
+
+.p2 {
+    color: white;
+    font-size: 35px;
+}
+
+.btn {
+    margin-bottom: 4%;
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 34px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px 26px 11px 26px;
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+@media screen and (max-width: 1040px) {
+    h2 {
+        margin-top: 13%;
+    }
+
+
+}
+
+@media screen and (max-width: 880px) {
+    .hitlogo {
+        left: 44%;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+    h2 {
+        margin-top: 18%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .hitlogo {
+        left: 41%;
+    }
+
+    h2 {
+        margin-top: 26%;
+    }
+
+}
+
+/* Page2 styling */
+
+.top {
+    background-color: blue;
+    height: 12vh;
+    width: 99vw;
+    border-radius: 0 0 30px 30px;
+    /* position: relative; */
+    /* border-radius: 10%; */
+
+}
+
+.arrow {
+    color: black;
+    margin-left: 5%;
+    padding: 1%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    vertical-align: middle;
+}
+
+i {
+    color: white;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+.chatboticon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.hit {
+    color: white;
+    font-size: 24px;
+}
+
+.bg {
+    width: 99vw;
+    opacity: 0.6;
+
+}
+
+.chat-page {
+    position: relative;
+    background-image: url(https://img.freepik.com/premium-vector/hand-draw-doodle-speech-bubbles-seamless-pattern_7280-1329.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 100vh;
+}
+
+.chats {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1%;
+    padding: 5%;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.chat1 {
+    background-color: blue;
+    width: 20vw;
+    color: white;
+    font-size: 20px;
+    padding: 1.6%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    gap: 1rem;
+}
+
+.chat2 {
+    background-color: blue;
+    width: 20vw;
+    color: white;
+    font-size: 20px;
+    padding: 2%;
+    border-radius: 50px;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    gap: 1rem;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .chat {
+        width: 99%;
+    }
+
+    .chat1 {
+        width: 50%;
+    }
+
+    .chat2 {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .chat {
+        width: 99%;
+    }
+
+    .chat1 {
+        width: 80%;
+    }
+
+    .chat2 {
+        width: 80%;
+    }
+
+}
+
+.chat-icon1 {
+    width: 40px;
+    height: 40px;
+}
+
+.chat-icon2 {
+
+    color: orange;
+}
+
+.bottom-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10vh;
+}
+
+.i1 {
+    position: absolute;
+    left: 6%;
+    top: 23px;
+    color: white;
+}
+
+.i2 {
+    position: absolute;
+    right: 6%;
+    top: 23px;
+    color: white;
+}
+
+input {
+    border: none;
+    background-color: blue;
+    width: 90vw;
+    height: 4vh;
+    font-size: 1.4rem;
+    /* padding: 2%; */
+    border-radius: 50px;
+    color: white;
+    /* margin-bottom: 10vh; */
+    padding: 30px 60px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
